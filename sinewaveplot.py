@@ -38,6 +38,6 @@ axes2.set_ylabel('Power')
 axes3.specgram(signal, NFFT=256, noverlap=0, Fs = sample_frequency,
                window=mlab.window_none)
 axes3.set_xlabel('Time (s)')
-axes3.set_ylabel('Frequency (khz)')
+axes3.set_ylabel('Frequency (hz)')
 
 plt.show()
