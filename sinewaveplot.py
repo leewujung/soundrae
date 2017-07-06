@@ -40,5 +40,4 @@ axes3.specgram(signal, NFFT=256, noverlap=0, Fs = sample_frequency,
 axes3.set_xlabel('Time (s)')
 axes3.set_ylabel('Frequency (khz)')
 
-
 plt.show()
