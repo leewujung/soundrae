@@ -38,3 +38,4 @@ He found a very simple solution to the problem I was having for the past week: I
 of printers. All I had to do to establish a connection with the network from what I can recall is to simply
 connect the raspberry pi to that network via ethernet cable.
 
+From there we mainly worked from the foomatic database to connect to our printers.
