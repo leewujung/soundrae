@@ -4,7 +4,7 @@
 Created on July 7, 2017
 
 ## Objective 
-
+d
 My second task when I began working on this project with Wu-Jung Lee was:
 
 2. Set up printer at APL to print the figures from task 1 (printer IP in the attached file, 
