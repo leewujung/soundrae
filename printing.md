@@ -28,9 +28,9 @@ The Ricoh C6502
 I immediately downloaded the CUPS printing interface using the following command on the terminal,
 with reference to the webpage I used to help me [download it](https://help.ubuntu.com/lts/serverguide/cups.html).
 
-'''
+```
 sudo apt install cups
-'''
+```
 
 Then a week later after much difficulty, I asked for IT help (which honestly, I should have done much sooner).
 
