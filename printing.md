@@ -42,4 +42,4 @@ From there we mainly worked from the foomatic database to connect to our printer
 
 Using the PIXEL gui, I navigated to the printer settings as shown here:
 
-![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png)
+![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png =300x400)
