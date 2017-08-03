@@ -44,7 +44,11 @@ Using the PIXEL gui, I navigated to the printer settings as shown here:
 
 ![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png)
 
+What should come up is the printer settings interface.
+
 ![Picture](screenshots/print1.png)
+
+From there, making sure I was connected to the cups server that holds the network of printers I wish to connect to, I then choose to add a printer. 
 
 ![Picture](screenshots/2017-08-02-143648_1824x984_scrot.png)
 
