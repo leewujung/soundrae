@@ -48,14 +48,9 @@ Using the PIXEL gui, I navigated to the printer settings as shown here:
 
 ![Picture](screenshots/2017-08-02-143648_1824x984_scrot.png)
 
+![Picture](screenshots/2017-08-02-143655_1824x984_scrot.png)
+
 ![Picture](screenshots/2017-08-02-144841_1824x984_scrot.png)
 
 ![Picture](screenshots/2017-08-02-144919_1824x984_scrot.png)
 
-![Picture](screenshots/)
-
-![Picture](screenshots/)
-
-![Picture](screenshots/)
-
-![Picture](screenshots/)
