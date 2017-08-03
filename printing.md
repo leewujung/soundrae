@@ -42,6 +42,4 @@ From there we mainly worked from the foomatic database to connect to our printer
 
 Using the PIXEL gui, I navigated to the printer settings as shown here:
 
-![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png){:class=:img-responsive"}
-![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png){:height="50%" width="50%"}
-![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png){:height=480px width=600px}
+![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png)
