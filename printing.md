@@ -41,4 +41,5 @@ connect the raspberry pi to that network via ethernet cable.
 From there we mainly worked from the foomatic database to connect to our printers.
 
 Using the PIXEL gui, I navigated to the printer settings as shown here:
+
 ![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png)
