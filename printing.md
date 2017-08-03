@@ -22,8 +22,8 @@ complete this task. I will also describing problems I encountered in in the prin
 
 So there are two printers I have to set the raspberry pi (denoted RPi from now on) to:
 
-The HP LaserJet P3015
-The Ricoh C6502
+1. The HP LaserJet P3015
+2. The Ricoh C6502
 
 I immediately downloaded the CUPS printing interface using the following command on the terminal,
 with reference to the webpage I used to help me [download it](https://help.ubuntu.com/lts/serverguide/cups.html).
