@@ -44,7 +44,7 @@ Using the PIXEL gui, I navigated to the printer settings as shown here:
 
 ![Picture](screenshots/2017-08-02-142249_1824x984_scrot.png)
 
-What should come up is the printer settings interface.
+What should come up is the printer settings interface. The two printers I wanted to set up are shown here already connected. One note however is that for the Ricoh, I managed to fix the yellow warning sign by connecting to the correct IP address for the printer. I was still able to print through the Ricoh before the fix, but the IP I used was the printer's own server.
 
 ![Picture](screenshots/print1.png)
 
