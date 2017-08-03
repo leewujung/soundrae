@@ -48,7 +48,7 @@ What should come up is the printer settings interface.
 
 ![Picture](screenshots/print1.png)
 
-From there, making sure I was connected to the cups server that holds the network of printers I wish to connect to, I then choose to add a printer. 
+From there, making sure I was connected to the cups server that holds the network of printers I wish to connect to via the servers tab, I then choose to add a printer. What pops up is an interface that gives you choices on what sort of printer you wish to add.
 
 ![Picture](screenshots/2017-08-02-143648_1824x984_scrot.png)
 
