@@ -52,6 +52,8 @@ From there, making sure I was connected to the cups server that holds the networ
 
 ![Picture](screenshots/2017-08-02-143648_1824x984_scrot.png)
 
+Since I want to connect to two network printers, I chose the network printers tab, and a dropdown menu of different available local printers are shown. The HP LaserJet P3015 printer is available with the hostname "Hulk". 
+
 ![Picture](screenshots/2017-08-02-143655_1824x984_scrot.png)
 
 ![Picture](screenshots/2017-08-02-144841_1824x984_scrot.png)
