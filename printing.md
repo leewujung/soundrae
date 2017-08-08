@@ -22,8 +22,8 @@ complete this task. I will also describing problems I encountered in in the prin
 
 So there are two printers I have to set the raspberry pi (denoted RPi from now on) to:
 
-1. The HP LaserJet P3015
-2. The Ricoh C6502
+1. The HP LaserJet P3015, Hostname Hulk
+2. The Ricoh C6502, Hostname Procolor
 
 I immediately downloaded the CUPS printing interface using the following command on the terminal,
 with reference to the webpage I used to help me [download it](https://help.ubuntu.com/lts/serverguide/cups.html).
@@ -70,3 +70,11 @@ If the PPD file of a printer can be found, I would prefer to use the second opti
 The printer PPD file is shown in this link: http://www.openprinting.org/printer/Ricoh/Ricoh-MP_C6502
 
 Openprinting is a fairly good database of printer compatibility with Linux. It essentially is a database that determines whether a specific printer is compatible with Linux, and provides links to PPD files or drivers of that printer if it is compatible.
+
+TLDR:
+1. Start -> Preferences -> Printer Settings.
+2. Check server settings, then click add printer.
+3. Hulk should be listed in network printers. Follow prompts to install and configure printer.
+4. Use LPD network printer for the Ricoh, enter IP in Host.
+5. Input PPD file of Ricoh, follow prompts to install and configure printer.
+6. Print test pages to make sure you are actually connected.
