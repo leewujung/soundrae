@@ -60,7 +60,13 @@ Next I have to connect to the Ricoh. Since it is not shown on the network printe
 
 ![Picture](screenshots/2017-08-02-144841_1824x984_scrot.png)
 
-
+The following prompt will give a couple options to connect to the printer. The first option is opens a database of printer drivers, this is used when you want to manually install the driver of a printer. The second option is a direct install from a ppd file. The last option is an automatic scan for the printer driver.
 
 ![Picture](screenshots/2017-08-02-144919_1824x984_scrot.png)
 
+
+If the PPD file of a printer can be found, I would prefer to use the second option as it is the most direct way to connect to a printer out of the three options. With that in mind, I did find the appropriate PPD file for the Ricoh MP C6502.
+
+The printer PPD file is shown in this link: http://www.openprinting.org/printer/Ricoh/Ricoh-MP_C6502
+
+Openprinting is a fairly good database of printer compatibility with Linux. It essentially is a database that determines whether a specific printer is compatible with Linux, and provides links to PPD files or drivers of that printer if it is compatible.
