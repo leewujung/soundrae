@@ -1,0 +1,24 @@
+/*
+
+*/
+int PIN_NUM = 8;
+void setup() {}
+void loop() { //as long as power is on
+    /*
+    3 seconds at 10 khz
+    stop, no sound for 1 sec
+    frequency += 10 khz
+    [10, 20, .... 100]
+    */
+    
+    //does one sequence.
+    for (int frequency = 10; frequency <= 100; frequency += 10) {
+      //play 3 seconds at frequency
+      //stop for 1 second
+      int khz = frequency * 1000;
+      tone(PIN_NUM, khz, 3000);
+      noTone(PIN_NUM);
+      delay(1000);
+      
+    }
+}
