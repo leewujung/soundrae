@@ -14,12 +14,6 @@ My second task when I began working on this project with Wu-Jung Lee was:
 
 This was one of the tasks I needed to complete by around July 5, 2017.
 
-### Disclaimer
-
-The main purpose of this file will be describe the process I went through in trying to complete
-this task. I will be describing strategies or "solutions" which did not end up helping me 
-complete this task. I will also describing problems I encountered in in the printing process.
-
 #### What worked.
 
 So there are two printers I have to set the raspberry pi (denoted RPi from now on) to:
