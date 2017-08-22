@@ -2,6 +2,7 @@
 # Printing in the raspberry pi
 
 Created on July 7, 2017
+Edited on August 22, 2017
 
 ## Objective 
 
