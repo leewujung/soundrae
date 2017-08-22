@@ -72,15 +72,25 @@ The printer PPD file is shown in this link: http://www.openprinting.org/printer/
 Openprinting is a fairly good database of printer compatibility with Linux. It essentially is a database that determines whether a specific printer is compatible with Linux, and provides links to PPD files or drivers of that printer if it is compatible.
 
 **In summary:**
-1. Start -> Preferences -> Printer Settings.
-2. Check server settings, then click add printer.
-3. Hulk should be listed in network printers. Follow prompts to install and configure printer.
-4. Use LPD network printer for the Ricoh, enter IP in Host.
-5. Input PPD file of Ricoh, follow prompts to install and configure printer.
-6. Print test pages to make sure you are actually connected.
+1. Make sure to download cups
+2. Start -> Preferences -> Printer Settings.
+3. Check server settings, then click add printer.
+4. Hulk should be listed in network printers. Follow prompts to install and configure printer.
+5. Use LPD network printer for the Ricoh, enter IP in Host.
+6. Input PPD file of Ricoh, follow prompts to install and configure printer.
+7. Print test pages to make sure you are actually connected.
 
 ##### What didn't work
 **Disclaimer :** Every method I have done towards connecting to the printers before getting to the solution described above was done without a connect to the network of printers. It was a rookie mistake, but something I have to mention.
 
 The Ricoh website doesn't provide a Linux Ricoh MPC6502 driver as of August 8, 2017. It provides a unix driver, which may work, but I have not tried that.
-The HP website does not provide a Linux driver for the 
+The HP website does not provide a Linux driver for the HP LaserJet P3015, and the Ricoh website doesn't have a Linux driver for the Ricoh C6502, perhaps UNIX may work but I myself haven't tried it.
+
+HPLip I found to be useless for me in connecting to the HP Printer, so it's best to just uninstall it or just ignore it altogether if you haven't downloaded it yet.
+
+The various connection options I had at on CUPS also didn't work for me. I've tried the VNC Remote printer, I've tried using different URI addresses for the printer like socket, http, https. None worked.
+It looked like when I scanned for any local printers that could be connected, a large list of printer besides the two I needed to connect were not available.
+
+Changing the config file for CUPS so that I could listen for the specific addresses of the printers didn't work. I ended up accidentally altering the listening portion of the config file so that it was no longer listening to localhost. That ended my connection to the URL address of the CUPS Server. DO NOT TOUCH THE CONFIG FILES TO CONNECT TWO PRINTERS.
+
+I do not remember how I went about troubleshooting the config file issue. I may have just installed and uninstalled CUPS, or just manually edited the config file in it's respective folder via the terminal.
