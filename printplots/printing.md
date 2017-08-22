@@ -47,23 +47,23 @@ Using the PIXEL gui, I navigated to the printer settings as shown here:
 
 What should come up is the printer settings interface. The two printers I wanted to set up are shown here already connected. One note however is that for the Ricoh, I managed to fix the yellow warning sign by connecting to the correct IP address for the printer. I was still able to print through the Ricoh before the fix, but the IP I used was the printer's own server.
 
-![Picture](screenshots/print1.png)
+![Picture](../screenshots/print1.png)
 
 From there, making sure I was connected to the cups server that holds the network of printers I wish to connect to via the servers tab, I then choose to add a printer. What pops up is an interface that gives you choices on what sort of printer you wish to add.
 
-![Picture](screenshots/2017-08-02-143648_1824x984_scrot.png)
+![Picture](../screenshots/2017-08-02-143648_1824x984_scrot.png)
 
 Since I want to connect to two network printers, I chose the network printers tab, and a dropdown menu of different available local printers are shown. The HP LaserJet P3015 printer is available with the hostname "Hulk". Clicking forward leads me to a series of prompts that pertain to printer settings. Once I finish configuring the printer settings, I should be connected to the printer.
 
-![Picture](screenshots/2017-08-02-143655_1824x984_scrot.png)
+![Picture](../screenshots/2017-08-02-143655_1824x984_scrot.png)
 
 Next I have to connect to the Ricoh. Since it is not shown on the network printers list, I have to connect to it manually. The Ricoh is a LPD network printer as denoted in its configuration page. In host, the IP of the printer should be typed in. Ideally probing for the printer should work, but if not, click forward to go to the next prompt.
 
-![Picture](screenshots/2017-08-02-144841_1824x984_scrot.png)
+![Picture](../screenshots/2017-08-02-144841_1824x984_scrot.png)
 
 The following prompt will give a couple options to connect to the printer. The first option is opens a database of printer drivers, this is used when you want to manually install the driver of a printer. The second option is a direct install from a ppd file. The last option is an automatic scan for the printer driver.
 
-![Picture](screenshots/2017-08-02-144919_1824x984_scrot.png)
+![Picture](../screenshots/2017-08-02-144919_1824x984_scrot.png)
 
 
 If the PPD file of a printer can be found, I would prefer to use the second option as it is the most direct way to connect to a printer out of the three options. With that in mind, I did find the appropriate PPD file for the Ricoh MP C6502.
